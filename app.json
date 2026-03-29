@@ -3,11 +3,8 @@
     "name": "SniperTips",
     "slug": "snipertips-app",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "android": {
-      "package": "com.ilic85m.snipertips",
-      "versionCode": 1
+      "package": "com.ilic85m.snipertips"
     },
     "extra": {
       "eas": {
