@@ -8,29 +8,30 @@
         body {
             background-color: #000;
             color: #D4AF37;
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             text-align: center;
             margin: 0;
             padding: 20px;
         }
         h1 {
-            font-size: 26px;
+            font-size: 24px;
             letter-spacing: 1.5px;
-            margin-bottom: 30px;
+            margin-bottom: 25px;
+            font-weight: bold;
         }
         .card {
             background-color: #1a1a1a;
             border: 1.5px solid #D4AF37;
             border-radius: 12px;
-            padding: 20px;
-            margin-bottom: 15px;
+            padding: 15px;
+            margin-bottom: 12px;
             display: flex;
             align-items: center;
             text-align: left;
         }
         .icon {
-            font-size: 40px;
-            margin-right: 20px;
+            font-size: 35px;
+            margin-right: 15px;
         }
         .player {
             color: white;
@@ -41,25 +42,27 @@
         .line {
             color: #D4AF37;
             font-size: 16px;
-            margin: 5px 0 0 0;
+            margin: 3px 0 0 0;
         }
-        .btn {
+        /* Dugme kao link */
+        .btn-link {
+            display: block;
             background-color: #D4AF37;
             color: black;
-            border: none;
+            text-decoration: none;
             padding: 15px;
-            width: 100%;
             border-radius: 8px;
             font-weight: bold;
             margin-top: 20px;
-            cursor: pointer;
+            font-size: 16px;
         }
         .ad-placeholder {
             background-color: #1a1a1a;
             color: #555;
-            font-size: 10px;
+            font-size: 11px;
             padding: 10px;
-            margin-top: 30px;
+            margin-top: 40px;
+            border-radius: 5px;
         }
     </style>
 </head>
@@ -83,7 +86,7 @@
         </div>
     </div>
 
-    <button class="btn">VIEW WINNING HISTORY</button>
+    <a href="history.html" class="btn-link">VIEW WINNING HISTORY</a>
 
     <div class="ad-placeholder">REKLAMA (GOOGLE ADMOB)</div>
 
