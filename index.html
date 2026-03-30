@@ -1,23 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SniperTips Picks</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #D4AF37;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 26px;
+            letter-spacing: 1.5px;
+            margin-bottom: 30px;
+        }
+        .card {
+            background-color: #1a1a1a;
+            border: 1.5px solid #D4AF37;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            text-align: left;
+        }
+        .icon {
+            font-size: 40px;
+            margin-right: 20px;
+        }
+        .player {
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0;
+        }
+        .line {
+            color: #D4AF37;
+            font-size: 16px;
+            margin: 5px 0 0 0;
+        }
+        .btn {
+            background-color: #D4AF37;
+            color: black;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            border-radius: 8px;
+            font-weight: bold;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .ad-placeholder {
+            background-color: #1a1a1a;
+            color: #555;
+            font-size: 10px;
+            padding: 10px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🎯 SNIPERTIPS PICKS</h1>
+
+    <div class="card">
+        <div class="icon">🏀</div>
+        <div>
+            <p class="player">Nickeil Alexander-Walker</p>
+            <p class="line">17.5 Points Over</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="icon">🏀</div>
+        <div>
+            <p class="player">Bennedict Mathurin</p>
+            <p class="line">19.5 Points Over</p>
+        </div>
+    </div>
+
+    <button class="btn">VIEW WINNING HISTORY</button>
+
+    <div class="ad-placeholder">REKLAMA (GOOGLE ADMOB)</div>
+
+</body>
 </html>
